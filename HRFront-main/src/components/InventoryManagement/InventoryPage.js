@@ -62,7 +62,7 @@ const InventoryManagement = ({ logout }) => {
             fetchInventory();
         } catch (error) {
             console.error('Error submitting inventory data:', error);
-            alert('An error occurred while submitting the form. Please try again.');
+                  alert('Serial number cannot be the same.');
         }
     };
 
